@@ -1,0 +1,651 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.srOnly { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+
+
+body {
+    background-color: #0e0e0e;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+p,
+.footerBar,
+.footerContainer a {
+    color: #4A4A4A;
+}
+
+
+.navBar li a, 
+.pcr ul li a {
+    color: #F4F4F4;
+}
+
+h1,
+h2,
+h3,
+.readMore a,
+.socialMedia li a {
+    color: #F2A11C;
+    font-weight: 100;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Pacifico', cursive;
+}
+
+.navBar li a,
+.footerBar,
+p,
+.footerContainer a,
+.pcr ul li a,
+.readMore a {
+    font-family: 'Catamaran', sans-serif;
+    text-decoration: none;
+}
+
+.navBar,
+.pcr ul,
+.socialMedia {
+    list-style: none;
+}
+
+
+
+
+
+.wrapper {
+    background: url(./biker-land-assets/image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 42vw;
+    position: relative;
+}
+
+.navBar {
+    float: right;
+    position: relative;
+    left: -37.2%;
+    margin: 32px 0 0 0; 
+}
+
+.navBar li {
+    float: left;
+}
+
+.navBar li a {
+    display: block;
+    margin: 0 20px 20px 20px;
+    padding: 0 5px 5px 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20rem;
+    font-size: 130px;
+    margin: 0;
+}
+
+.socialMedia {
+    text-align: center;
+    float: right;
+    margin-top: -10rem;
+}
+
+.socialMedia li {
+    margin: 0 4.2rem 0.8rem 10rem;
+}
+
+.socialMedia li a {
+    font-size: 25px;
+}
+
+
+
+section {
+    display: inline-block;
+}
+
+.aboutUs .container,
+.ourMission .container {
+    background-color: #0e0e0e;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+
+.meetAlissa .container h2,
+.meetAlissa .container p {
+    color: #1F2022;
+}
+
+
+.aboutUs .container p,
+.ourMission .container p,
+.meetAlissa .container p {
+    font-size: 20px;
+    line-height: 29px;
+}
+
+button {
+    padding: 15px 28px;
+    background-color: #1F2022;
+}
+
+button a {
+    font-size: 18px;
+}
+
+.aboutUs .container {
+    float: left;
+    width: 50%;
+    padding: 6.05vw 8.9vw 8.9vw 8.9vw;
+}
+
+.bikeImg1 {
+    background: url(./biker-land-assets/image-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat,;
+    background-position: 0% 90%;
+    height: 39rem;
+    float: right;
+    clear: right;
+    width: 50%;
+}
+
+.bikeImg2 {
+    background: url(./biker-land-assets/image-7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 90%;
+    height: 39rem;
+    float: left;
+    width: 50%;
+}
+
+.ourMission .container {
+    float: left;
+    width: 50%;
+    padding: 6vw 9vw 9vw 9vw;
+}
+
+
+
+
+.meetAlissa {
+    background-color: #FAFAfA;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    overflow: auto;
+}
+
+.bikeImg3 {
+    background: url(./biker-land-assets/image-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 90%;
+    height: 20rem;
+    width: 20rem;
+    float: left;
+    margin: 7rem 2rem 7.5rem 8rem;
+}
+
+.meetAlissa .container {
+    padding: 110px 200px 0px 50px;
+    float: right;
+    width: 70rem;
+    margin: 0 0 0 0;
+}
+
+.meetAlissa h2 {
+    margin: 0 0;
+}
+
+
+
+
+
+.pcr {
+    background: url(./biker-land-assets/image-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    margin: -4px 0 0 0;
+    padding: 0 0 0 24rem;
+    text-align: center;
+}
+
+.pcr ul {
+    /* margin: 0 0 0 0; */
+    text-align: center;
+}
+
+.pcr ul li {
+    padding-top: 1rem;
+}
+
+.pcr ul li a {
+    font-size: 28px;
+    color: #F2A11C;
+}
+
+.pcr ul li a i {
+    font-size: 50px;
+    color: #F4F4F4;
+}
+
+.products,
+.community,
+.reachOut {
+    float: left;
+    margin: 11rem 0 0 6rem;
+}
+
+
+
+.gram {
+    text-align: center;
+    padding: 0 5rem 0 7rem;
+}
+
+.gram h2 {
+    margin: 7rem 0 5rem 0 ;
+}
+
+.gram img {
+    float: left;
+    margin: 0 2.5rem 7rem 0;
+    width: calc((1600px - 19.5rem) / 3);
+}
+
+
+
+
+footer {
+    display: inline-block;
+    background-color: #1F2022;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer nav {
+    margin: 4rem 0 0 0;
+}
+
+footer nav .navBar li a{
+    font-size: 18px;
+    margin: 0 2rem 0 0;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+.contact p,
+.stayUpdated p,
+.stayUpdated p a {
+    color: #f4f4f4;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.contact {
+    float: left;
+    margin: 5rem 0 0 10rem;
+    padding: 0 0 5rem 0;
+}
+
+.stayUpdated {
+    float: right;
+    margin: 5rem -18rem 0 0;
+}
+
+
+form {
+    float: left;
+}
+
+.email input[type=text] {
+    background-color: #FFFFFF; 
+    border: none;
+    width: 25vw;
+    height: 3rem;
+    text-align: left;
+    margin-bottom: 5px;
+    /* FONT STYLES */
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    color: #1F2022;
+    padding-left: 2rem;
+}
+
+.email input[type=submit] {
+    background-color: #F2A11C;
+    width: 9vw;
+    height: 3rem;
+    text-align: center;
+    border: none;
+    /* FONT STYLES */
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #0e0e0e;
+    letter-spacing: 1px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.subscribe {
+    float: left;
+}
+
+.stayUpdated p a {
+    display: inline-block;
+    margin: 1rem 0 0 0;
+}
+
+
+.footerBar {
+    display: block;
+    height: 3.5rem;
+    background-color: #000000;
+    margin-top: -2rem;
+}
+
+.footerBar p {
+    text-align: center;
+    color: #f4f4f4;
+    padding-top: 1.4rem;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1600px) {
+.wrapper {
+    height: 50vw;
+    position: relative;
+}
+.meetAlissa .container {
+    width: 65vw;
+    padding: 110px 200px 0px 50px;
+}
+.gram img {
+    width: 29vw;
+    padding: 0 2.5rem 0 0;
+    margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 1500px) {
+.gram img {
+    width: 28vw;
+    padding: 0 2.5rem 0 0;
+    margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 1375px) {
+.meetAlissa .container {
+    width: 60vw;
+    padding: 110px 150px 100px 50px;
+}
+.gram img {
+    width: 26vw;
+    padding: 0 2.5rem 0 0;
+    margin: 0 auto;
+}
+h1 {
+    padding-top: 14rem;
+    font-size: 130px;
+    margin: 0;
+}
+}
+
+@media screen and (max-width: 1200px) {
+.meetAlissa .container {
+    width: 60vw;
+    padding: 110px 50px 100px 50px;
+}
+.bikeImg3 {
+    height: 40vw;
+    width: 40vw;
+    margin: 7rem 0rem 7.5rem 0rem;
+}
+.gram img {
+    width: 26vw;
+    padding: 0 2.5rem 0 0;
+    margin: 0 auto;
+}
+.products,
+.community,
+.reachOut {
+    float: left;
+    margin: 11rem 0 0 2vw;
+}
+.email input[type=submit] {
+    width: 12vw;
+}
+}
+
+@media screen and (max-width: 1000px) {
+.wrapper {
+    height: 55vw;
+}
+.pcr {
+    margin: -4px 0 0 0;
+    padding: 0 0 0 18vw;
+}
+.aboutUs .container {
+    float: left;
+    width: 100%;
+    margin: 30rem 0 0 0;
+}
+.bikeImg1 {
+    height: 32rem;
+    width: 100%;
+    position: absolute;
+}
+.container {
+    text-align: center;
+}
+.container h2 {
+    font-size: 80px;
+}
+.aboutUs .container p,
+.ourMission .container p,
+.meetAlissa .container p {
+    font-size: 40px;
+    line-height: 50px;
+}
+button {
+    padding: 35px 68px;
+}
+button a {
+    font-size: 40px;
+}
+.bikeImg2 {
+    background-position: 0% 90%;
+    height: 39rem;
+    width: 100%;
+}
+.ourMission .container {
+    width: 100%;
+}
+.socialMedia {
+    display: none;
+}
+.meetAlissa .container {
+    float: none;
+    width: 100%;
+}
+.bikeImg3 {
+    float: none;
+    width: 90vw;
+    height: 90vw;
+    margin: 7rem auto 0 auto;
+}
+.gram img {
+    width: 50%;
+    padding: 0 1rem 0 1rem;
+    margin: 0 auto;
+}
+.gram img:last-child {
+    display: none;
+}
+.gram {
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+.navBar {
+    float: none;
+    left: 0;
+    width: 100%;
+}
+.navBar li {
+    float: left;
+}
+footer nav {
+    width: 100%;
+}
+footer nav .navBar li a {
+    display: inline-block;
+    text-align: center;
+    padding: 0 5px 5px 5px;
+    font-size: 3vw;
+    font-weight: 400;
+}
+.stayUpdated {
+    width: 80%;
+    float: none;
+    margin: 1rem auto 0 auto;
+    text-align: center;
+}
+.contact {
+    float: none;
+    margin: 13rem auto 0 auto;
+    text-align: center;
+    width: 80%;
+}
+form {
+    float: none;
+    text-align: center;
+}
+.email input[type=text] {
+    float: none;
+    background-color: #FFFFFF; 
+    border: none;
+    width: 80%;
+    height: 6rem;
+    text-align: center;
+    margin-bottom: 7px;
+    margin-left: 8px;
+    /* FONT STYLES */
+    font-size: 38px;
+    padding-left: 2rem;
+}
+.subscribe {
+    float: none;
+}
+.email input[type=submit] {
+    float: none;
+    width: 80%;
+    height: 6rem;
+    /* FONT STYLES */
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+}
+
+
+@media screen and (max-width: 950px) {
+.socialMedia {
+    display: none;
+}
+}
+
+@media screen and (max-width: 700px) {
+.pcr {
+    height: 80rem;
+    margin: -4px 0 0 0;
+    padding: 0;
+    text-align: center;
+}
+.products,
+.community,
+.reachOut {
+    float: none;
+    text-align: center;
+    margin: 7rem 0 0 0;
+}
+.pcr ul li a {
+    font-size: 68px;
+}
+.pcr ul li a i {
+    font-size: 90px;
+}
+.pcr {
+    height: 80rem;
+    margin: -4px 0 0 0;
+    padding: 0.1rem;
+    text-align: center;
+}
+}
+
+
+
+
+
+
+
+/* Landscape phones and down */
+@media (max-width: 650px) {
+.wrapper {
+    background-color: #0e0e0e;
+    height: 100vw;
+    background-position: center;
+}
+.wrapper nav {
+    display: none;
+}
+.wrapper ul {
+    display: none;
+}
+h1 {
+    padding-top: 14rem;
+    font-size: 120px;
+    margin: 0;
+}
+.aboutUs .container p,
+.ourMission .container p,
+.meetAlissa .container p {
+    font-size: 30px;
+    line-height: 39px;
+}
+
+}
